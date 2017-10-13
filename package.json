@@ -1,0 +1,19 @@
+{
+  "name": "secure-teapot",
+  "version": "1.0.0",
+  "maintainers": [
+    "linuxgemini (ilteris@asenkron.com.tr)"
+  ],
+  "author": "linuxgemini",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxgemini/secure-teapot.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.6.2"
+  },
+  "scripts": {
+    "main": "node ./teapot.js"
+  }
+}
