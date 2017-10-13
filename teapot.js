@@ -26,7 +26,7 @@ const url = require('url');
 const http = require('http');
 const https = require('https');
 const connect = require('connect'); // import connect package
-const mainApp = connect(); // initiate connect
+var mainApp = connect(); // initiate connect
 var secondApp = connect();
 
 function filterIPAddresses(req) {
