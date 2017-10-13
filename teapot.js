@@ -2,11 +2,22 @@
 
 const fs = require('fs');
 
+try {
+	require('./config.json'); // try gathering config
+} catch (e) { // if error
+    console.error("config.json is not set. Use the config-base file to make one");
+    return setTimeout(() => {
+        process.exit(1);
+    }, 838);
+}
+
+const config = require('./config.json');
+
 // SET THESE BEFORE USE
-var hostName = 'h.ostna.me'; // SET ME
+var hostName = config.hostname; // SET ME
 const HTTPSopts = {
-    cert: fs.readFileSync("/path/to/certificate.pem"),
-    key: fs.readFileSync("/path/to/private/key.pem")
+    cert: fs.readFileSync(config.pathToCertificate),
+    key: fs.readFileSync(config.pathToPrivateKey)
 }; // SET ME
 
 var securePort = 443;
