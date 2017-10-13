@@ -61,7 +61,7 @@ mainApp.use((request, response, next) => {
         'X-is-making-tea': 'true',
         'Server': 'Apache Helicopter',
     });
-    response.end(responseData, 'utf-8', function () {
+    response.end(responseData, 'utf-8', () => {
         reportConn('https', request);
     });
 });
