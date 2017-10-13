@@ -13,12 +13,11 @@ try {
 
 const config = require('./config.json');
 
-// SET THESE BEFORE USE
-var hostName = config.hostname; // SET ME
+var hostName = config.hostname;
 const HTTPSopts = {
     cert: fs.readFileSync(config.pathToCertificate),
     key: fs.readFileSync(config.pathToPrivateKey)
-}; // SET ME
+};
 
 var securePort = 443;
 var generalPort = 80;
