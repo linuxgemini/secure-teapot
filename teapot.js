@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 try {
-	require('./config.json'); // try gathering config
+    require('./config.json'); // try gathering config
 } catch (e) { // if error
     console.error("config.json is not set. Use the config-base file to make one");
     return setTimeout(() => {
