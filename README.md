@@ -16,6 +16,7 @@ Installation
 -----------
 * Clone the repository.
 * Create a file named `config.json` with the base of [config-base.json](https://github.com/linuxgemini/secure-teapot/blob/master/config-base.json) in the repository folder.
+
 Example:		
 
 		{
