@@ -19,11 +19,11 @@ Installation
 
 Example:		
 
-		{
-		  "hostname": "the.domain-i-have.xyz",
-		  "pathToCertificate": "/path/to/certificate.pem",
-		  "pathToPrivateKey": "/path/to/privatekey.pem"
-		}
+	{
+	  "hostname": "the.domain-i-have.xyz",
+	  "pathToCertificate": "/path/to/certificate.pem",
+	  "pathToPrivateKey": "/path/to/privatekey.pem"
+	}
 * Open a terminal in the repository folder.
 
         ~/secure-teapot$ npm install
