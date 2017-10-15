@@ -24,6 +24,7 @@ Example:
 	  "pathToCertificate": "/path/to/certificate.pem",
 	  "pathToPrivateKey": "/path/to/privatekey.pem"
 	}
+
 * Open a terminal in the repository folder.
 
         ~/secure-teapot$ npm install
