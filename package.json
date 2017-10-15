@@ -14,6 +14,6 @@
     "connect": "^3.6.2"
   },
   "scripts": {
-    "main": "node ./teapot.js"
+    "start": "node teapot.js"
   }
 }
