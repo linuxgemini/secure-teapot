@@ -27,13 +27,14 @@ Example:
 
 * Open a terminal in the repository folder.
 
-        ~/secure-teapot$ npm install
+		~/secure-teapot$ npm install
         
 Usage
 -----------
 * Open a terminal in the repository folder.
 
-        ~/secure-teapot$ npm start
+		~/secure-teapot$ npm start
+	
 * Visit the domain you've set (e.g., the.domain-i-have.xyz) on your browser. Or use cURL if you really want to see the code 418.
 * If you want to stop the server, just do CTRL+C and done.
 
