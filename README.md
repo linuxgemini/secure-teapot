@@ -38,4 +38,5 @@ Usage
 End Note
 -----------
 I got bored enough to do this.
+
 I got even bored to do `README.md` and `package.json`.
