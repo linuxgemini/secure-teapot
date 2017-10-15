@@ -2,8 +2,6 @@
 
 "I'm a teapot" over HTTPS.
 
-----------
-
 Requirements
 -----------
 * [Node.js](https://nodejs.org/)
